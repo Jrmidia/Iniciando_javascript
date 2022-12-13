@@ -27,15 +27,22 @@
     <script>
         //window.alert("Seja bem vindo") // mensagem de alerta na tela 
         //window.confirm("Deseja continuar?") // mensagem de alerta na tela com confirmação do usuário
-        //window.prompt("Digite seu nome para continuar") // solicita para o usuario inserir um dado antes de continuar
+        var nome = window.prompt("Digite seu nome para continuar") // solicita para o usuario inserir um dado antes de continuar
 
         //var nome = window.prompt('Digite seu nome para continuar')
         //window.alert('Seja bem vindo, ' + nome + '!')
 
-        var n1 = Number(window.prompt('Digite um numero: ')) // AULA 6 18:00h covertendo string para number utiliza-se Number() ou Number.parseInt() ou Number.parseFloat() - estes utimos são usado quando queremos forçar o tpo de variavel que desejamos || Number() converte para NUMBER independente do tipo
-        var n2 = Number(window.prompt('Digite outro numero: '))
-        var s = n1+n2
-        window.alert('A soma é ' + s)
+        //var n1 = Number(window.prompt('Digite um numero: ')) // AULA 6 18:00h covertendo string para number utiliza-se Number() ou Number.parseInt() ou Number.parseFloat() - estes utimos são usado quando queremos forçar o tpo de variavel que desejamos || Number() converte para NUMBER independente do tipo
+        //var n2 = Number(window.prompt('Digite outro numero: '))
+        //var s = n1+n2
+        //window.alert('A soma é ' + s)
+
+        //var s = n1+n2
+        //window.alert(`A soma entre ${n1} e ${n2} é iguala = ${s}`)
+
+        document.write (`Olá ${nome}! Seja bem vindo/a`)
+        document.write (`Olá ${nome.toLocaleUpperCase()}! Seja bem vindo/a`)
+        // PARA CONVERTER NUMBER para STRING usa-se String(n) ou n.toString()
 
     </script>
     
