@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <style>
+        body{
+            font: 100;
+            font-family: montserrat;
+            background-color:#80f0ca;
+        }
+        h1 {
+            color: #0043a8;
+        }
+        h2 {
+            color: #0083cf;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Site</h1>
+    <h2>Treinando Javascript + versionamento</h2>
+    <p>Este é o meu primeiro site criado em HTML, CSS e Javascript</p>
+
+    <script>
+        //window.alert("Seja bem vindo") // mensagem de alerta na tela 
+        //window.confirm("Deseja continuar?") // mensagem de alerta na tela com confirmação do usuário
+        //window.prompt("Digite seu nome para continuar") // solicita para o usuario inserir um dado antes de continuar
+
+        //var nome = window.prompt('Digite seu nome para continuar')
+        //window.alert('Seja bem vindo, ' + nome + '!')
+
+        var n1 = Number(window.prompt('Digite um numero: ')) // AULA 6 18:00h covertendo string para number utiliza-se Number() ou Number.parseInt() ou Number.parseFloat() - estes utimos são usado quando queremos forçar o tpo de variavel que desejamos || Number() converte para NUMBER independente do tipo
+        var n2 = Number(window.prompt('Digite outro numero: '))
+        var s = n1+n2
+        window.alert('A soma é ' + s)
+
+    </script>
+    
+</body>
+</html>
